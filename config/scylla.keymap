@@ -28,7 +28,7 @@
 		lower_layer {
 // ------------------------------------------------------------------------------------------------------------
 // | TILDE |  !   |  @    |  #    |  $   |  %   |                   |  ^   |  &    |  *    |  (   |   )   |  DEL  |
-// | RESET |      |       |       |      |  [   |                   |  ]   |  7    |  8    |  9   |       |   +   |
+// |       |      |       |       |      |  [   |                   |  ]   |  7    |  8    |  9   |       |   +   |
 // |       | HOME | PG UP | PG DN | END  |  (   |                   |  )   |  4    |  5    |  6   |   -   |  "|"  |
 // |       |      |       |       | CLMK |GAME_L|                   |      |  1    |  2    |  3   |   =   |   _   |
 //                        |  SPCE | BKSP |      |                   |      | RCMD  | ENTR  |
@@ -36,7 +36,7 @@
 
 			bindings = <
 &kp TILDE &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT                 &kp CARET &kp AMPS   &kp STAR  &kp LPAR  &kp RPAR     &kp DEL
-&reset    &trans    &trans    &trans    &trans    &kp LBKT                  &kp RBKT  &kp KP_N7  &kp KP_N8 &kp N9    &trans       &kp PLUS
+&trans    &trans    &trans    &trans    &trans    &kp LBKT                  &kp RBKT  &kp KP_N7  &kp KP_N8 &kp N9    &trans       &kp PLUS
 &trans    &kp HOME  &kp PG_UP &kp PG_DN &kp END   &kp LPAR                  &kp RPAR  &kp KP_N4  &kp KP_N5 &kp KP_N6 &kp KP_MINUS &kp PIPE
 &trans    &trans    &trans    &trans    &tog 4    &tog 3                    &trans    &kp KP_N1  &kp KP_N2 &kp KP_N3 &kp KP_EQUAL &kp UNDER
                               &trans    &trans    &trans                    &trans    &trans     &trans 
