@@ -37,7 +37,7 @@
 			bindings = <
 &kp ESC    &trans    &trans    &trans    &trans    &trans                    &trans    &trans     &trans   &trans    &trans   &trans
 &kp ESC    &kp STAR  &kp MINUS &kp LBRC  &kp RBRC  &kp DLLR                  &trans    &trans     &kp UP   &trans    &kp BSPC &trans
-&kp LSHIFT &kp PIPE  &kp EQUAL &kp LPAR  &kp RPAR  &kp GT                    &trans    &kp LEFT   &kp DOWN &kp RIGHT &trans   &SQT
+&kp LSHIFT &kp PIPE  &kp EQUAL &kp LPAR  &kp RPAR  &kp GT                    &trans    &kp LEFT   &kp DOWN &kp RIGHT &trans   &kp SQT
 &kp LSHIFT &kp CARET &kp UNDER &kp LBKT  &kp RBKT  &kp AMPS                  &trans    &trans     &trans   &trans    &trans   &trans
                                &trans    &trans    &trans                    &trans    &trans     &trans 
                                          &trans    &trans                    &trans    &trans
